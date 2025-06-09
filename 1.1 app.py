@@ -6,13 +6,13 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-# /// = relative path, //// = absolute path
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
-class Todo(db.Model): # pylint: disable=too-few-public-methods
+class Todo(db.Model): 
     """A dummy docstring."""
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100))
