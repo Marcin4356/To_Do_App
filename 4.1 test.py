@@ -24,4 +24,4 @@ def test3():
     assert b"Add" in response.data
 
 
-#    assert b"Project" in response.data
+
