@@ -1,91 +1,44 @@
 # To-Do App
 
-A simple and elegant to-do list web application built with HTML, CSS, and JavaScript with local storage support.
+A lightweight browser-based task management application built with vanilla JavaScript.
 
-## 📋 Description
+## Overview
 
-This is a lightweight to-do application that allows users to create, manage, and track tasks. Data is persisted using browser local storage, so your tasks are saved even after closing the browser.
+The application allows users to create, complete, and remove tasks. Tasks are persisted in the browser using the Web Storage API, so the state is retained between browser sessions.
 
-## 🛠️ Tech Stack
+## Technologies
 
-- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
-- **Storage:** Local Storage API
-- **Type:** Single Page Application (SPA)
+- HTML5
+- CSS3
+- JavaScript
+- Browser Local Storage
 
-## 🎯 Features
+## Features
 
-- ✅ Add new tasks
-- ✅ Mark tasks as complete
-- ✅ Delete tasks
-- ✅ Persistent storage using Local Storage
-- ✅ Responsive design
-- ✅ Clean and intuitive UI
+- Create and delete tasks
+- Mark tasks as completed
+- Persistent client-side storage
+- Responsive user interface
 
-## 🚀 Getting Started
+## Running locally
 
-### 1. Clone the Repository
+Clone the repository and open `index.html` in a web browser.
 
 ```bash
 git clone https://github.com/Marcin4356/To_Do_App.git
 cd To_Do_App
 ```
 
-### 2. Open in Browser
+No backend or external database is required.
 
-Simply open the `index.html` file in your web browser:
-
-```bash
-# macOS
-open index.html
-
-# Linux
-xdg-open index.html
-
-# Windows
-start index.html
-```
-
-Or drag and drop `index.html` into your browser.
-
-## 📁 Project Structure
+## Project structure
 
 ```
 To_Do_App/
-├── index.html          # Main HTML file
-├── styles.css          # Styling
-├── script.js           # Application logic
-└── README.md           # This file
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 ```
 
-## 💾 Local Storage
-
-Tasks are automatically saved to the browser's Local Storage. Each task is stored with:
-- Task description
-- Completion status
-- Unique ID
-
-## 🔧 Usage
-
-1. **Add a Task:** Type in the input field and press Enter or click the Add button
-2. **Complete a Task:** Click the checkbox next to the task
-3. **Delete a Task:** Click the delete/trash icon
-4. **Clear All:** Use the clear button to remove all tasks
-
-## 🌐 Browser Support
-
-- Chrome/Chromium (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-**Marcin4356** - [GitHub Profile](https://github.com/Marcin4356)
-
----
-
-*Last updated: 2026-04-28*
+This is a small application project focused on frontend fundamentals and browser-side data persistence.
